@@ -1,5 +1,12 @@
 # MDN教程：Express网页框架
 
+> 
+> MDN教程：[https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Express_Nodejs](https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Express_Nodejs)
+> 
+> MDN源码：[https://github.com/mdn/express-locallibrary-tutorial](https://github.com/mdn/express-locallibrary-tutorial)
+> 
+> GitHub：[https://github.com/mumingv/nodejs/tree/master/books/mdn-express](https://github.com/mumingv/nodejs/tree/master/books/mdn-express)
+
 ## 环境搭建
 
 ## 项目介绍
