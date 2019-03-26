@@ -7,8 +7,12 @@
 ## 数据库
 
 > 与数据库交互的两种方法：
+> 
 > 1、使用数据库的原生查询语言（如：SQL）；
+> 
 > 2、使用对象数据模型（ODM)或对象关系模型（ORM），ODM/ORM能够将数据表示为JavaScript对象，并将其映射到底层数据库。
+
+**安装mongoose**
 
 ```
 $ npm install mongoose
