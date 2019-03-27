@@ -40,7 +40,7 @@ $ npm install mongoose
 
 使用示例：
 
-```node
+```js
 const mongoose = require('mongoose');
 const mongoDB = 'mongodb+srv://local_lib:Xu2iNONoZuC0DZ9H@cluster-p0ynu.mongodb.net/test?retryWrites=true';
 mongoose.connect(mongoDB);
@@ -54,7 +54,7 @@ db.on('error', console.error.bind(console, 'MongoDB 连接错误：'));
 ```
 $ npm install async
 ```
-```node
+```js
 $ node populatedb.js 'mongodb+srv://local_lib:Xu2iNONoZuC0DZ9H@cluster-p0ynu.mongodb.net/test?retryWrites=true'
 ```
 
