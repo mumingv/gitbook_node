@@ -13,11 +13,21 @@
 
 ## 设计文档
 
+#### 数据表设计
 
+#### 接口设计
+
+|类别|接口|含义|备注|
+|----|----|----|----|
+|入口    |GET /                      ||重定向到 /catalog/  |
+|主页    |GET /catalog              |||
+|藏书    |GET /catalog/books         |查询书籍列表  ||
+|藏书    |GET /catalog/book/*id*/    |查询书籍的详细信息  ||
+|藏书    |GET /catalog/book/create/  |新增书籍  ||
+|藏书    |GET /catalog/book/update/  |更新书籍  ||
+|藏书    |GET /catalog/book/delete/  |删除书籍  ||
 
 ## 环境搭建
-
-## 项目介绍
 
 ## 数据库
 
@@ -81,6 +91,18 @@ model
 [GitHub-Diff](https://github.com/mumingv/nodejs/commit/188b5cf743d91bca874ac23193af5e1d59733509)
 
 ## 路由和控制器
+
+**MVC架构图**
+
+![](/assets/MVC架构图.png)
+
+**主页重定向**
+
+```js
+router.get('/', (req, res) => {
+  res.redirect('/catalog');
+});
+```
 
 ## 图书馆数据展示
 
